@@ -1,0 +1,12 @@
+{
+    "name": "ponto",
+    "start_url" : "./",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "",
+            "sizes" : "256x256",
+            "type" : "image/png"
+        }
+    ]
+}
