@@ -5,68 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="css/opcoesDaPagina.css">
-  <link rel="stylesheet" href="css/opcoesDoCartao.css">
   <link rel="stylesheet" href="css/cabecalho.css">
-	<link rel="stylesheet" href="css/login.css">
-	<link rel="stylesheet" href="css/loginForm.css">
-	<link rel="stylesheet" href="css/loginStatus.css">
-  <link rel="stylesheet" href="css/cartao.css">
-  <link rel="stylesheet" href="css/novoCartao.css">
-  <link rel="stylesheet" href="css/mural.css">
-  <title>Ponto Eletrônico</title>
-  <style>
-  body{
-    font-family: 'Open Sans', sans-serif;
-    }
-    #dataTimeStl{
-      border: 1px solid #0E4E53;
-      padding: 20px;
-      max-width: 60px;
-      margin: 0 10px 10px 0;
-      border-radius: 5px;
-      font-weight: bold;
-      display:inline-block;
-    }
-    #btnGetTime{
-      margin-bottom:35px;
-    }
-    .btnGetTimeStl{
-      background-color: #0E4E53;
-      border-color: #06F8AE;
-      padding:5px;
-      margin: 10px 0 5px 0;
-      color:#fff;
-      width: 100px;
-      height: 40px;
-      border-radius: 5px;
-    }
-    #fulDateStl{
-      font-size: 18px;
-      font-weight: bold;
-    }
-    .pontoEletro{
-      margin-top:20px;
-    }
-  </style>
+  <title>Progressive Ponto</title>
+  
 </head>
 <body onload="fullDate()">
   <header class="cabecalho container">
     <h1 class="cabecalho-logo">
-      EletroPonto
+      ProgPonto
     </h1>
-    <!-- <div class="opcoesDaPagina">
-		<input type="search" placeholder="busca" id="busca" class="opcoesDaPagina-opcao">
-		<button id="mudaLayout" class="opcoesDaPagina-opcao opcoesDaPagina-botao">Linhas</button> 
-    </div>-->
   </header>
-	<!-- <form class="novoCartao container">
-		<textarea class="novoCartao-conteudo" name="novoCartao-conteudo" placeholder="Digite aqui"></textarea>
-		<input class="novoCartao-salvar" type="submit" value="Salvar">
-	</form> -->
 	<section class="pontoEletro container">
 		<div id="dataCompleta">
-
 		</div>
 		<div id="btnGetTime">
 			<button class="btnGetTimeStl" onclick="getTime()">Marcar Ponto</button>
@@ -75,27 +25,8 @@
 			<p id="horaMarcada"></p>
 		</div>
 	</section>
-	<!--<section class="container login"></section> -->
-	<section class="container mural"></section>
 	<script src="js/sw/registra.js"></script>
 	<script src="js/lib/jquery.js"></script>
-	<script src="js/lib/eventemitter2.js"></script>
-	<script src="js/lib/KeyBoardNavigation.js"></script>
-	<script src="js/tags/Tags.js"></script>
-	<script src="js/cabecalho/mudaLayout.js"></script>
-	<script src="js/cabecalho/busca.js"></script>
-	<script src="js/filtro/Filtro.js"></script>
-	<script src="js/tipos/TiposCartao.js"></script>
-	<script src="js/cartao/render/Cartao_renderHelpers.js"></script>
-	<script src="js/cartao/render/CartaoOpcoes_render.js"></script>
-	<script src="js/cartao/render/CartaoConteudo_render.js"></script>
-	<script src="js/cartao/render/Cartao_render.js"></script>
-	<script src="js/cartao/Cartao.js"></script>
-	<script src="js/login/LoginUsuario_render.js"></script>
-	<script src="js/login/LoginUsuario.js"></script>
-	<script src="js/mural/render/Mural_render.js"></script>
-	<script src="js/mural/Mural.js"></script>
-	<script src="js/cabecalho/novoCartao.js"></script>
 	<script src="js/ponto/datatime.js"></script>
 </body>
 </html>

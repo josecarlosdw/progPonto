@@ -5,27 +5,44 @@
 
 
 body {
-  background: #E8E8E8;
+  font-family: 'Open Sans', sans-serif;
+  background: #D6D6CC;
 }
 
 .container {
 	padding: 0 5%;
 }
 
-:focus {
-  outline-color: #3b99fc;
-  outline-style: solid;
-  outline-width: 3px;
+#dataTimeStl{
+  border: 1px solid #0E4E53;
+  padding: 20px;
+  max-width: 60px;
+  margin: 0 10px 10px 0;
+  border-radius: 5px;
+  font-weight: bold;
+  display:inline-block;
 }
-
-#mudaLayout {
-  display: none;
+#btnGetTime{
+  margin-bottom:35px;
+}
+.btnGetTimeStl{
+  background-color: #0E4E53;
+  border-color: #06F8AE;
+  padding:5px;
+  margin: 10px 0 5px 0;
+  color:#fff;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+#fulDateStl{
+  font-size: 18px;
+  font-weight: bold;
+}
+.pontoEletro{
+  margin-top:20px;
 }
 
 @media (min-width: 610px){
-
-	#mudaLayout{
-		display: inline-block;
-	}
 
 }
